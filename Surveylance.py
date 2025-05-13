@@ -3,9 +3,9 @@ import pandas as pd
 from datetime import datetime
 
 # --- Insider Lists ---
-directors_accounts = {"ET87CBECETA00002", "ET87CBECETA00003", "ET87CBECETA00000"}
+directors_accounts = {"ET87CBECETA00002", "ET33BINITAA00011", "ET87CBECETA00000"}
 shareholders_accounts = {"ET10CBECETA01001", "ET10CBECETA01002"}
-board_accounts = {"ET10CBECETA01000", "ET10CBECETA01003"}
+board_accounts = {"ET10CBECETA01000", "ET55BINITAA00003"}
 
 # --- Page Config ---
 st.set_page_config(page_title="Insider Trading Watch", layout="wide")
