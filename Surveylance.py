@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # --- Insider Lists ---
-directors_accounts = {"ET87CBECETA00002", "ET33BINITAA00011", "ET87CBECETA00000"}
+directors_accounts = {"ET87CBECETA00002", "ET87CBECETA00000", "ET33BINITAA00011"}
 shareholders_accounts = {"ET10CBECETA01001", "ET10CBECETA01002"}
 board_accounts = {"ET10CBECETA01000", "ET55BINITAA00003"}
 
