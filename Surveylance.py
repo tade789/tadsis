@@ -9,7 +9,7 @@ board_accounts = {"ET10CBECETA01000", "ET55BINITAA00003"}
 
 # --- Page Config ---
 st.set_page_config(page_title="Insider Trading Watch", layout="wide")
-st.title("📊 ESX- Insider Trading Watchlist Report")
+st.title("📊 ESX Market Surveillance Tool (In-House)")
 
 st.markdown("""
 Upload your trading file (`.xlsx` or `.csv`) to automatically analyze and flag:
@@ -72,7 +72,7 @@ if uploaded_file:
             insider_df = df[df['Watch Type'].notna()].copy()
 
             # --- Insider Reports ---
-            st.subheader(" Insider Trading Reports by Category")
+            st.subheader("1. Insider Trading Reports by Category")
             for category, title in [
                 ("Director", "👨‍💼 Directors"),
                 ("≥5% Shareholder", "💼 ≥5% Shareholders"),
