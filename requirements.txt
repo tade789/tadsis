@@ -3,5 +3,5 @@ pandas==2.2.3
 numpy==2.1.3
 plotly==5.17.0
 bcrypt==4.0.1
-xlrd
-openpyxl
+xlrd==2.0.1
+openpyxl==3.1.2
